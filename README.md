@@ -1,5 +1,5 @@
 
-Ejercicio 1:
+Ejercicio 1 y 2:
 
     mkdir dummy
     mkdir empty
@@ -10,9 +10,9 @@ Ejercicio 1:
     mv file2.txt ../empty
     
 Ejercicio 2:
-    El script se encuentra en el archivo script2.sh
+    El script se encuentra en el archivo script3.sh
     para crear el archivo usamos el comando 
-        nano script2.sh
+        nano script3.sh
     para ejecutarlo:
-        ./script2.sh 
+        ./script3.sh 
         
