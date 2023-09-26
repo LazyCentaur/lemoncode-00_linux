@@ -13,6 +13,6 @@ Ejercicio 2:
     El script se encuentra en el archivo script2.sh
     para crear el archivo usamos el comando 
         nano script2.sh
-    para ejecutarlo con arg un texto:
+    para ejecutarlo:
         ./script2.sh 
         
