@@ -5,9 +5,9 @@ text="Que me gusta la bash!!!!"
 echo "Introoduce un texto:"
 read textUser
 
-if [[ $textUser -gt 0 ]]
+if [[ "$textUser" ]]
 then
-  text=textUser
+text=$textUser
 fi
 
 mkdir dummy
@@ -15,5 +15,7 @@ mkdir empty
 cd dummy
 echo $text > file1.txt
 touch file2.txt
-cp file1.txt file2.txt 
+cp file1.txt file2.txt
 mv file2.txt ../empty
+
+exit
