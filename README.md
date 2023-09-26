@@ -9,3 +9,10 @@ Ejercicio 1:
     cp file1.txt file2.txt 
     mv file2.txt ../empty
     
+Ejercicio 2:
+    El script se encuentra en el archivo script2.sh
+    para crear el archivo usamos el comando 
+        nano script2.sh
+    para ejecutarlo con arg un texto:
+        ./script2.sh 
+        
